@@ -1,2 +1,2 @@
-please see [link]. it contains a resume.yml file for my professional resume. it uses rendercv structure. see https://github.com/rendercv/rendercv/blob/main/docs/llms.txt
+please see https://github.com/jonnyjackson26/rendercv-resume/blob/main/resume.yml. This is my professional resume. it uses rendercv structure. see https://github.com/rendercv/rendercv/blob/main/docs/llms.txt for syntax and docs.
 if I ask you to make any changes to my resume, plz open a pull request to this repo changing ONLY the resume.yml file. pushing to main runs a GitHub action that updates the resume on my personal website, Jonny-Jackson.com
