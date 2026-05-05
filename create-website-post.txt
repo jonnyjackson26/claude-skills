@@ -1,0 +1,37 @@
+Open a pull request to https://github.com/jonnyjackson26/jonny-jackson, adding a single file in https://github.com/jonnyjackson26/jonny-jackson/tree/main/content/posts. this is the github repo of my portfolio website. each of my projects are kept in the content/projects folder. 
+determine a name for the markdown file. 
+
+TEMPLATE FOR YOUR MARKDOWN FILE:
+```
+---
+draft: false
+showCodeCopyButtons: true
+title: <YOU MUST COME UP WITH A TITLE FOR THIS POST>
+date: <TODAYS DATE AND TIME FORMATTED LIKE THIS: 2024-10-01T10:00:00.000Z>
+weight: -998
+summary: <YOU MUST COME UP WITH A SHORT SUMMARY>
+techstack:
+  - react
+showPostNavLinks: true
+tags:
+  - websites
+projectLink:
+  text: Visit Site
+  url: https://learn-markdown-game.com
+cover:
+  image: /uploads/learn-markdown-game/learn-markdown-game.gif
+  alt: Screenshot of Level 3
+  caption: Level 3 of learn-markdown-game.com
+  relative: true
+  hiddenInSingle: false
+---
+<HERE, INCLUDE MARKDOWN ABOUT THE PROJECT. A LOT OF THIS SHOULD BE SIMILAR TO THE PROJECTS README, BUT USUALLY WITH LESS TECHNICAL DETAILS>
+```
+
+* A note on techstacks:
+  Each entry must match exactly the filename (without .png, of course) from this folder: https://github.com/jonnyjackson26/jonny-jackson/tree/main/static/techstack_logos
+  Add all relevant ones. If an important one is missing, plz suggest I add it in the PR comments.
+
+* A note on tags:
+  Only choose from these options: ai, algorithms, api, c++, church, computer-architecture, django, hugo, java, javascript, math, mobile-apps, python, websites
+  Be conservative in choosing. 
